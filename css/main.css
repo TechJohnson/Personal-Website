@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f4f4;
+  padding: 0;
+  margin: 0;
+}
+
+.homepageHero {
+  background-image: url(../img/site-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.homepageHero .homepageLogo {
+  max-width: 450px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.homepageHero p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: #778186;
+  padding: 0;
+  margin: 0;
+}
+
+.homepageHero ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.homepageHero ul li {
+  padding: 0;
+  margin: 20px 12px 0 12px;
+}
+
+.homepageHero ul li img {
+  height: 20px;
+}
+
+.homepageHero ul li a {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

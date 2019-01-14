@@ -1,0 +1,61 @@
+// Color Variables
+$primaryBlue: #1E90FF;
+$primaryGreenn: #90EE90;
+$darkGray: #031926;
+$lightGray: #f4f4f4;
+$secondBlue: #778186;
+
+// Global
+body {
+    font-family: 'Poppins', sans-serif;
+    background: $lightGray;
+    padding: 0;
+    margin: 0;
+}
+
+// Homepage Hero
+.homepageHero {
+    background-image: url(../img/site-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    .homepageLogo {
+        max-width: 450px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    p {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.125em;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        color: $secondBlue;
+        padding: 0;
+        margin: 0;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        li {
+            padding: 0;
+            margin: 20px 12px 0 12px;
+            img {
+                height: 20px;
+            }
+            a {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}
