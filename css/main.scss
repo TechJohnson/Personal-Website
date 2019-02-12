@@ -132,6 +132,7 @@ body {
     padding-top: 100px;
     img {
         margin-bottom: -7px;
+        max-width: 320px;
     }
     .aboutCopy {
         padding-bottom: 100px;
@@ -139,7 +140,7 @@ body {
 }
 
 // Benefit Section
-.myBenefits {
+.favoriteQuotes {
     background: $darkGray;
     padding: 75px 0;
     margin: 0;
