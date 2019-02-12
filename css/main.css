@@ -12,6 +12,23 @@ body {
   position: relative;
 }
 
+.btn_solid {
+  background: #031926;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #031926;
+  border-radius: 5px;
+  padding: 7px 20px;
+}
+
+.btn_outline {
+  text-decoration: none;
+  border: 2px solid #031926;
+  border-radius: 5px;
+  color: #031926;
+  padding: 7px 20px;
+}
+
 .homepageHero {
   background-image: url(../img/site-bg.png);
   background-size: cover;
@@ -149,9 +166,17 @@ body {
   padding-bottom: 100px;
 }
 
+.aboutMe .btn_outline {
+  margin-left: 10px;
+}
+
+.aboutMe .buttons {
+  padding-top: 15px;
+}
+
 .favoriteQuotes {
   background: #031926;
-  padding: 75px 0;
+  padding: 75px 0 25px 0;
   margin: 0;
 }
 
@@ -170,6 +195,12 @@ body {
 .favoriteQuotes h2 span {
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+.favoriteQuotes .footer {
+  font-size: .75rem;
+  color: rgba(255, 255, 255, 0.25);
+  padding-top: 50px;
 }
 
 .container-fluid {
