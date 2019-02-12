@@ -166,7 +166,7 @@ body {
 // Quote Section
 .favoriteQuotes {
     background: $darkGray;
-    padding: 75px 0 25px 0;
+    padding: 75px 0 225px 0;
     margin: 0;
     img {
         height: 65px;
@@ -182,12 +182,66 @@ body {
             font-weight: 700;
         }
     }
-    .footer {
-        font-size: .75rem;
-        color: rgba(255, 255, 255, 0.25);
-        padding-top: 50px;
+}
+
+// Skill Box
+.skillBox {
+    background: white;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    color: #293347;
+    display: block;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: -150px;
+    img {
+        width: 48px;
+    }
+    .centerColumn {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+    }
+    .column {
+        text-align: center;
+        padding: 70px 45px;
+        line-height: 1.8;
+        width: 33.3333%;
+        h2 {
+            margin-bottom: 2rem;
+        }
+        h4 {
+            font-weight: 300;
+            font-size: 1.125em;
+            color: $primaryBlue;
+            padding: 0 0 10px 0;
+            margin: 0;
+        }
+        .contentText {
+            margin-bottom: 3rem;
+            padding: 0;
+        }
+        p {
+            padding: 0;
+            margin: 0;
+        }
     }
 }
+
+// Footer 
+.footer {
+    font-size: .75rem;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgba($darkGray, .25);
+}
+
+
+
+
+
+
   
 
 

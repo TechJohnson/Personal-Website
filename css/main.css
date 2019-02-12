@@ -176,7 +176,7 @@ body {
 
 .favoriteQuotes {
   background: #031926;
-  padding: 75px 0 25px 0;
+  padding: 75px 0 225px 0;
   margin: 0;
 }
 
@@ -197,10 +197,71 @@ body {
   font-weight: 700;
 }
 
-.favoriteQuotes .footer {
+.skillBox {
+  background: white;
+  -webkit-box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+          box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+  color: #293347;
+  display: block;
+  border-radius: 10px;
+  padding: 0;
+  margin-top: -150px;
+}
+
+.skillBox img {
+  width: 48px;
+}
+
+.skillBox .centerColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.skillBox .column {
+  text-align: center;
+  padding: 70px 45px;
+  line-height: 1.8;
+  width: 33.3333%;
+}
+
+.skillBox .column h2 {
+  margin-bottom: 2rem;
+}
+
+.skillBox .column h4 {
+  font-weight: 300;
+  font-size: 1.125em;
+  color: #1E90FF;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.skillBox .column .contentText {
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+.skillBox .column p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
   font-size: .75rem;
-  color: rgba(255, 255, 255, 0.25);
   padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgba(3, 25, 38, 0.25);
 }
 
 .container-fluid {
