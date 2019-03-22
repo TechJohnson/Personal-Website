@@ -27,6 +27,22 @@
 
 <body>
 
+    <nav id="nav">
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-xs-3 start-xs">
+                    <p>Steven Johnson</p>
+                </div>
+                <div class="col-xs-9 end-xs">
+                    <a href="#">Home</a>
+                    <a href="https://dribbble.com/TechJohnson">Portfolio</a>
+                    <a href="#">Thoughts</a>
+                    <a href="https://twitter.com/TechJohnson">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!--Homepage hero section-->
     <section class="homepageHero">
         <img src="img/Logo_name.svg" alt="Steven Johnson Logo" class="homepageLogo">
@@ -131,4 +147,16 @@
     </section>
 
 </body>
+
+    <script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        document.getElementById("nav").style.top = "0";
+        } else {
+        document.getElementById("nav").style.top = "-200px";
+        }
+    }
+    </script>
 </html>

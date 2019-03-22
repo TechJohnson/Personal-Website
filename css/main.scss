@@ -1,6 +1,6 @@
 // Color Variables
 $primaryBlue: #1E90FF;
-$primaryGreenn: #90EE90;
+$primaryGreen: #90EE90;
 $darkGray: #031926;
 $lightGray: #f4f4f4;
 $secondBlue: #778186;
@@ -237,7 +237,26 @@ body {
     color: rgba($darkGray, .25);
 }
 
+// Navigation
 
+#nav {
+    background: white;
+    position: fixed;
+    top: -200px;
+    width: 100%;
+    padding: 15px 0;
+    transition: top 0.5s;
+    z-index: 999;
+    a {
+        color: $darkGray;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 25px 10px;
+        &:hover {
+            color: $primaryBlue;
+        }
+    }
+}
 
 
 
