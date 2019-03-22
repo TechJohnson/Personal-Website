@@ -247,6 +247,9 @@ body {
     padding: 15px 0;
     transition: top 0.5s;
     z-index: 999;
+    img {
+        height: 48px;
+    }
     a {
         color: $darkGray;
         text-decoration: none;

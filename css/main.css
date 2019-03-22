@@ -275,6 +275,10 @@ body {
   z-index: 999;
 }
 
+#nav img {
+  height: 48px;
+}
+
 #nav a {
   color: #031926;
   text-decoration: none;
