@@ -5,6 +5,19 @@ $darkGray: #031926;
 $lightGray: #f4f4f4;
 $secondBlue: #778186;
 
+// Media Queries
+@media (max-width: 768px) {
+    #desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    #mobile {
+        display: none;
+    }
+}
+
 // Global
 body {
     font-family: 'Poppins', sans-serif;
