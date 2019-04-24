@@ -220,6 +220,14 @@ body {
   margin-top: -150px;
 }
 
+.skillBox .mobileBox {
+  padding: 25px;
+}
+
+.skillBox .mobileBox img {
+  padding-top: 25px;
+}
+
 .skillBox img {
   width: 48px;
 }
