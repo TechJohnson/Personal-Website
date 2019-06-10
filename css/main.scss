@@ -41,6 +41,9 @@ body {
     border: 2px solid $darkGray;
     border-radius: 5px;
     padding: 7px 20px;
+    &:hover {
+        background: black;
+    }
 }
 
 .btn_outline {
@@ -49,6 +52,10 @@ body {
     border-radius: 5px;
     color: $darkGray;
     padding: 7px 20px;
+    &:hover {
+        background: $darkGray;
+        color: white;
+    }
 }
 
 // Homepage Hero
@@ -161,6 +168,7 @@ body {
     background-size: cover;
     background-position: center;
     padding-top: 100px;
+    line-height: 1.8;
     img {
         margin-bottom: -7px;
         max-width: 320px;
@@ -276,6 +284,60 @@ body {
         padding: 25px 10px;
         &:hover {
             color: $primaryBlue;
+        }
+    }
+}
+
+
+// My Resume
+.myResume {
+    padding: 100px 0;
+    line-height: 1.8;
+    p {
+        padding-bottom: 25px;
+    }
+    h2 {
+        padding: 0;
+        margin: 0;
+    }
+    h3 {
+        font-size: 0.75rem;
+        color: $primaryBlue;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    img {
+        width: 100%;
+        border-radius: 1000px;
+    }
+    hr {
+        margin-top: 100px;
+    }
+}
+
+.resumeSection {
+    padding-top: 50px;
+    h2 {
+        color: $primaryBlue;
+    }
+    h3 {
+        font-size: 1.125rem;
+        color: $darkGray;
+    }
+    .education {
+        padding: 25px 0;
+        h3 {
+            padding: 0;
+            margin: 0;
+        }
+        h4 {
+            color: rgba($darkGray, .25);
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            padding: 10px 0 0 0;
+            margin: 0;
         }
     }
 }

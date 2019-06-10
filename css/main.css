@@ -33,12 +33,21 @@ body {
   padding: 7px 20px;
 }
 
+.btn_solid:hover {
+  background: black;
+}
+
 .btn_outline {
   text-decoration: none;
   border: 2px solid #031926;
   border-radius: 5px;
   color: #031926;
   padding: 7px 20px;
+}
+
+.btn_outline:hover {
+  background: #031926;
+  color: white;
 }
 
 .homepageHero {
@@ -167,6 +176,7 @@ body {
   background-size: cover;
   background-position: center;
   padding-top: 100px;
+  line-height: 1.8;
 }
 
 .aboutMe img {
@@ -308,6 +318,69 @@ body {
 
 #nav a:hover {
   color: #1E90FF;
+}
+
+.myResume {
+  padding: 100px 0;
+  line-height: 1.8;
+}
+
+.myResume p {
+  padding-bottom: 25px;
+}
+
+.myResume h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.myResume h3 {
+  font-size: 0.75rem;
+  color: #1E90FF;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.myResume img {
+  width: 100%;
+  border-radius: 1000px;
+}
+
+.myResume hr {
+  margin-top: 100px;
+}
+
+.resumeSection {
+  padding-top: 50px;
+}
+
+.resumeSection h2 {
+  color: #1E90FF;
+}
+
+.resumeSection h3 {
+  font-size: 1.125rem;
+  color: #031926;
+}
+
+.resumeSection .education {
+  padding: 25px 0;
+}
+
+.resumeSection .education h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.resumeSection .education h4 {
+  color: rgba(3, 25, 38, 0.25);
+  padding: 0;
+  margin: 0;
+}
+
+.resumeSection .education p {
+  padding: 10px 0 0 0;
+  margin: 0;
 }
 
 .container-fluid {
