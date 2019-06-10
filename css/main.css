@@ -363,24 +363,28 @@ body {
   color: #031926;
 }
 
-.resumeSection .education {
+.resumeSection .experience {
   padding: 25px 0;
 }
 
-.resumeSection .education h3 {
+.resumeSection .experience h3 {
   padding: 0;
   margin: 0;
 }
 
-.resumeSection .education h4 {
+.resumeSection .experience h4 {
   color: rgba(3, 25, 38, 0.25);
   padding: 0;
   margin: 0;
 }
 
-.resumeSection .education p {
+.resumeSection .experience p {
   padding: 10px 0 0 0;
   margin: 0;
+}
+
+.resumeSection .experience img {
+  width: 30%;
 }
 
 .container-fluid {

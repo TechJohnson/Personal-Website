@@ -324,7 +324,7 @@ body {
         font-size: 1.125rem;
         color: $darkGray;
     }
-    .education {
+    .experience {
         padding: 25px 0;
         h3 {
             padding: 0;
@@ -338,6 +338,9 @@ body {
         p {
             padding: 10px 0 0 0;
             margin: 0;
+        }
+        img {
+            width: 30%;
         }
     }
 }
