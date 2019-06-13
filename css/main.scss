@@ -289,6 +289,24 @@ body {
 }
 
 
+.contactNav {
+    height: auto;
+    padding: 15px 0;
+    background: white;
+    img {
+        height: 48px;
+    }
+    a {
+        color: $darkGray;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 25px 10px;
+    }
+}
+
+
+
+
 // My Resume
 .myResume {
     padding: 100px 0;
@@ -345,8 +363,92 @@ body {
     }
 }
 
+.contactHeader {
+    background-image: url(../img/steven-trombone.png);
+    background-size: cover;
+    background-position: top;
+    height: auto;
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.125em;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        color: $secondBlue;
+        padding: 300px 0;
+        margin: 0;
+    }
+}
 
-
+.contactArea {
+    padding: 100px 0;
+    margin: 0;
+    h2 {
+        color: $primaryBlue;
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 0;
+        margin: 0;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+    p {
+        line-height: 1.8;
+        padding-top: 10px;
+    }
+    input {
+        width: 100%;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 10px 0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 2px solid #eeeeee;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 10px 0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 2px solid #eeeeee;
+    }
+    button {
+        width: 35%;
+        background: $primaryBlue;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 5px 0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 2px solid #eeeeee;
+        cursor: pointer;
+        &:hover {
+            background: darken($primaryBlue, 25);
+        }
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        padding-top: 20px;
+        padding-left: 0;
+        margin: 0;
+        li {
+            padding-right: 50px;
+            margin: 0;
+        }
+        img {
+            height: 30px;
+        }
+    }
+}
 
   
 

@@ -320,6 +320,23 @@ body {
   color: #1E90FF;
 }
 
+.contactNav {
+  height: auto;
+  padding: 15px 0;
+  background: white;
+}
+
+.contactNav img {
+  height: 48px;
+}
+
+.contactNav a {
+  color: #031926;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 25px 10px;
+}
+
 .myResume {
   padding: 100px 0;
   line-height: 1.8;
@@ -385,6 +402,106 @@ body {
 
 .resumeSection .experience img {
   width: 30%;
+}
+
+.contactHeader {
+  background-image: url(../img/steven-trombone.png);
+  background-size: cover;
+  background-position: top;
+  height: auto;
+}
+
+.contactHeader h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: #778186;
+  padding: 300px 0;
+  margin: 0;
+}
+
+.contactArea {
+  padding: 100px 0;
+  margin: 0;
+}
+
+.contactArea h2 {
+  color: #1E90FF;
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.contactArea h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.contactArea p {
+  line-height: 1.8;
+  padding-top: 10px;
+}
+
+.contactArea input {
+  width: 100%;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid #eeeeee;
+}
+
+.contactArea textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid #eeeeee;
+}
+
+.contactArea button {
+  width: 35%;
+  background: #1E90FF;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 5px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid #eeeeee;
+  cursor: pointer;
+}
+
+.contactArea button:hover {
+  background: #00509e;
+}
+
+.contactArea ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.contactArea ul li {
+  padding-right: 50px;
+  margin: 0;
+}
+
+.contactArea ul img {
+  height: 30px;
 }
 
 .container-fluid {
