@@ -8,261 +8,181 @@
     <meta name="keywords" content="web development, web designer, graphic designer, central pennsylvania, central pa">
     <meta name="author" content="Steven (TechJohnson) Johnson">
     <link rel="canonical" href="http://techjohnson.com/">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <title>Steven Johnson - Developer, Designer, Car Enthusiast, Coffee Drinker</title>
+    <title>Steven Johnson - Freelance Web Developer and Graphic Designer in Pennsylvania</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57758617-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-57758617-1');
-    </script>
-    
 </head>
-
 <body>
-
-    <!--Desktop-->
-    <div id="desktop">
-        <nav id="nav">
-            <div class="container">
-                <div class="row middle-xs">
-                    <div class="col-xs-3 start-xs">
-                        <a href="/"><img src="/img/Logo.svg" alt="Steven Johnson"></a>
-                    </div>
-                    <div class="col-xs-9 end-xs">
-                        <a href="/">Home</a>
-                        <a href="//dribbble.com/TechJohnson">Portfolio</a>
-                        <a href="#">Thoughts</a>
-                        <a href="contact">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <!--Homepage hero section-->
-        <section class="homepageHero">
-            <img src="img/Logo_name.svg" alt="Steven Johnson Logo" class="homepageLogo">
-            <p>developer | designer | car enthusiast | coffee drinker</p>
-            <ul>
-                <li><a href="//youtube.com/techjohnson"><img src="img/youtube_icon.svg" alt="YouTube Icon"></a></li>
-                <li><a href="//twitter.com/techjohnson"><img src="img/twitter_icon.svg" alt="Twitter Icon"></a></li>
-                <li><a href="//dribbble.com/techjohnson"><img src="img/dribbble_icon.svg" alt="Dribbble Icon"></a></li>
-                <li><a href="//instagram.com/techjohnson"><img src="img/instagram_icon.svg" alt="Instagram Icon"></a></li>
-            </ul>
-
-            <!--Scroll down icon-->
-            <div class="scrollDown icon-scroll"></div>
-
-        </section>
-
-        <!--About me section-->
-        <section class="aboutMe">
-            <div class="container">
-                <div class="row middle-xs">
-                    <div class="col-xs-12 col-md-6 start-md center-xs aboutCopy">
-                        <h2>Who Am I?</h2>
-                        <p>Front-end web developer building websites and web interfaces that focus on responsive design, performance, and accessibility while using the latest front-end design techniques. Without being too fansy, I build websites.</p>
-                        <p>When I’m not busy working or learning, I like to spend time with my beautiful wife, two boys, and my crazy hyper dog Buddy. Oh yeah, I also love cars, shooting guns, and playing video games.</p>
-                        <div class="buttons">
-                            <a href="#" class="btn_solid">My Full Story</a>
-                            <a href="my-resume" class="btn_outline">My Resume</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 end-md center-xs">
-                        <img src="img/steven_johnson.png" alt="Steven Johnson">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Favorite Quotes-->
-        <section class="favoriteQuotes">
-            <div class="container">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>"Quality means doing it right when no one is looking." <span>~ Henry Ford</span></h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Skill Box-->
+    
+    <!--Desktop Header-->
+    <header class="desktopHeader">
         <div class="container">
-            <div class="skillBox">
-                <div class="contentBox">
-                    <div class="centerColumn">
-                        <div class="column">
-                            <img src="img/design.svg" alt="Designer">
-                            <h2>Designer</h2>
-                            <p class="contentText">I'm a huge advocate of elegancy, design flow, and smooth interactions on all designs.</p>
-                            <h4>Things I love designing:</h4>
-                            <p class="contentText">UX, UI, Websites, Mobile Apps, Logos</p>
-                            <h4>Design Tools:</h4>
-                            <p>Adobe Photoshop</p>
-                            <p>Adobe Illustrator</p>
-                            <p>Sketch</p>
-                            <p>Invision</p>
-                            <p>Pen & Paper</p>
-                        </div>
-                        <div class="column">
-                            <img src="img/frontent.svg" alt="Front-end Developer">
-                            <h2>Front-end Developer</h2>
-                            <p class="contentText">I like to code my front-end design projects from scratch. This gives me the ultimate control in creativity.</p>
-                            <h4>Languages I speak:</h4>
-                            <p class="contentText">HTML, CSS, Sass, JavaScript, JQuery</p>
-                            <h4>Developer Tools:</h4>
-                            <p>VS Code</p>
-                            <p>Atom</p>
-                            <p>GitHub</p>
-                            <p>Bootstrap</p>
-                            <p>Flexboxgrid</p>
-                            <p>WordPress</p>
-                            <p>Netlify</p>
-                        </div>
-                        <div class="column">
-                            <img src="img/nerd.svg" alt="Front-end Developer">
-                            <h2>General Nerd</h2>
-                            <p class="contentText">I genuinely care about my design work, but I love spending time with family or enjoying my hobbies.</p>
-                            <h4>My largest love:</h4>
-                            <p class="contentText">My wife and 2 boys</p>
-                            <h4>Other Passions:</h4>
-                            <p>Cars</p>
-                            <p>Motorcycles</p>
-                            <p>Gaming</p>
-                            <p>Guns</p>
-                            <p>Fishing</p>
-                            <p>Coffee</p>
-                        </div>
+
+            <!--Desktop Navigation-->
+            <nav class="desktopNav">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="/img/logo.png" alt="">
                     </div>
+                    <div class="col-xs-7 end-xs">
+                        <a href="">Work</a>
+                        <a href="">Practice</a>
+                        <a href="">Story</a>
+                        <a href="">What's Up</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <!--Desktop Hero-->
+            <div class="desktopHero">
+                <div class="row middle-xs">
+                    <div class="col-xs-6">
+                        <p class="accent">Freelancer</p>
+                        <h1>Internet Hair Stylist</h1>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    </div>
+                    <div class="col-xs-6 center-xs">
+                        <img src="/img/play_button.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!--Desktop Projects-->
+    <section class="leftPic">
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-xs-6">
+                    <img src="/img/jdi-black.jpg" onmouseover="src='/img/jdi-color.jpg'" onmouseout="src='/img/jdi-black.jpg'" alt="Just Deliver It">
+                </div>
+                <div class="col-xs-6">
+                    <h3>Web Design & Development</h3>
+                    <h2>Just Deliver It</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <section class="footer">
-            <p>Steven Johnson © 2019</p>
-        </section>
-    </div>
-
-
-    <!--Mobile-->
-    <div id="mobile">
-        <!--Homepage hero section-->
-        <section class="homepageHero">
-            <img src="img/Logo_name.svg" alt="Steven Johnson Logo" class="homepageLogo">
-            <p>developer | designer | car enthusiast | coffee drinker</p>
-            <ul>
-                <li><a href="//youtube.com/techjohnson"><img src="img/youtube_icon.svg" alt="YouTube Icon"></a></li>
-                <li><a href="//twitter.com/techjohnson"><img src="img/twitter_icon.svg" alt="Twitter Icon"></a></li>
-                <li><a href="//dribbble.com/techjohnson"><img src="img/dribbble_icon.svg" alt="Dribbble Icon"></a></li>
-                <li><a href="//instagram.com/techjohnson"><img src="img/instagram_icon.svg" alt="Instagram Icon"></a></li>
-            </ul>
-
-            <!--Scroll down icon-->
-            <div class="scrollDown icon-scroll"></div>
-
-        </section>    
-        
-        <!--About me section-->
-        <section class="aboutMe">
-            <div class="container">
-                <div class="row middle-xs">
-                    <div class="col-xs-12 col-md-6 end-md center-xs">
-                        <img src="img/steven_johnson.png" alt="Steven Johnson">
-                    </div>
-                    <div class="col-xs-12 col-md-6 start-md center-xs aboutCopy">
-                        <h2>Who Am I?</h2>
-                        <p>Front-end web developer building websites and web interfaces that focus on responsive design, performance, and accessibility while using the latest front-end design techniques. Without being too fansy, I build websites.</p>
-                        <p>When I’m not busy working or learning, I like to spend time with my beautiful wife, two boys, and my crazy hyper dog Buddy. Oh yeah, I also love cars, shooting guns, and playing video games.</p>
-                        <div class="buttons">
-                            <a href="#" class="btn_solid">My Full Story</a>
-                            <a href="#" class="btn_outline">My Resume</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Favorite Quotes-->
-        <section class="favoriteQuotes">
-            <div class="container">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>"Quality means doing it right when no one is looking." <span>~ Henry Ford</span></h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Skill Box-->
+    <section class="leftPic">
         <div class="container">
-            <div class="skillBox">
-                <div class="row center-xs mobileBox">
-                    <div class="col-xs-12">
-                        <img src="img/design.svg" alt="Designer">
-                        <h2>Designer</h2>
-                        <p class="contentText">I'm a huge advocate of elegancy, design flow, and smooth interactions on all designs.</p>
-                        <h4>Things I love designing:</h4>
-                        <p class="contentText">UX, UI, Websites, Mobile Apps, Logos</p>
-                        <h4>Design Tools:</h4>
-                        <p>Adobe Photoshop</p>
-                        <p>Adobe Illustrator</p>
-                        <p>Sketch</p>
-                        <p>Invision</p>
-                        <p>Pen & Paper</p>
-                        <img src="img/frontent.svg" alt="Front-end Developer">
-                        <h2>Front-end Developer</h2>
-                        <p class="contentText">I like to code my front-end design projects from scratch. This gives me the ultimate control in creativity.</p>
-                        <h4>Languages I speak:</h4>
-                        <p class="contentText">HTML, CSS, Sass, JavaScript, JQuery</p>
-                        <h4>Developer Tools:</h4>
-                        <p>VS Code</p>
-                        <p>Atom</p>
-                        <p>GitHub</p>
-                        <p>Bootstrap</p>
-                        <p>Flexboxgrid</p>
-                        <p>WordPress</p>
-                        <p>Netlify</p>
-                        <img src="img/nerd.svg" alt="Front-end Developer">
-                        <h2>General Nerd</h2>
-                        <p class="contentText">I genuinely care about my design work, but I love spending time with family or enjoying my hobbies.</p>
-                        <h4>My largest love:</h4>
-                        <p class="contentText">My wife and 2 boys</p>
-                        <h4>Other Passions:</h4>
-                        <p>Cars</p>
-                        <p>Motorcycles</p>
-                        <p>Gaming</p>
-                        <p>Guns</p>
-                        <p>Fishing</p>
-                        <p>Coffee</p>
-                    </div>
+            <div class="row middle-xs">
+                <div class="col-xs-6">
+                    <img src="/img/appolonia-black.jpg" onmouseover="src='/img/appolonia-color.jpg'" onmouseout="src='/img/appolonia-black.jpg'" alt="Just Deliver It">
+                </div>
+                <div class="col-xs-6">
+                    <h3>Logo Design</h3>
+                    <h2>Appolonia Catering</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="leftPic">
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-xs-6">
+                    <img src="/img/btcwizards-black.jpg" onmouseover="src='/img/btcwizards-color.jpg'" onmouseout="src='/img/btcwizards-black.jpg'" alt="Just Deliver It">
+                </div>
+                <div class="col-xs-6">
+                    <h3>Web Design & Branding</h3>
+                    <h2>BTC Wizards</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonial">
+        <div class="container">
+            <div class="row center-xs">
+                <div class="col-xs-12">
+                    <p><span>"</span>I was very impressed by the attentiveness and work put into making my new graphics how I wanted them. The whole process was smooth, and that’s such an important thing in today’s business world.<span>"</span></p>
+                    <p class="owner">Kastrasz, <span>Twitch Streamer</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="leftPic">
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-xs-6">
+                    <img src="/img/me-black.jpg" onmouseover="src='/img/me-color.jpg'" onmouseout="src='/img/me-black.jpg'" alt="Just Deliver It">
+                </div>
+                <div class="col-xs-6">
+                    <h3>Steven Johnson</h3>
+                    <h2>Seriously, I'm the best!</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    <ul>
+                        <li>hey</li>
+                        <li>hey</li>
+                        <li>hey</li>
+                        <li>hey</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Area-->
+    <section class="contactArea">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h2>Don't be a stranger</h2>
+                    <h3>just say hello.</h3>
+                    <p>Want to reach out privately to say what's up? Maybe you want to request a quote! Whatever the case may be, I am always open to new discussion.</p>
+                    <ul>
+                        <li><a href="//youtube.com/techjohnson"><img src="img/youtube_icon.svg" alt="YouTube Icon"></a></li>
+                        <li><a href="//twitter.com/techjohnson"><img src="img/twitter_icon.svg" alt="Twitter Icon"></a></li>
+                        <li><a href="//dribbble.com/techjohnson"><img src="img/dribbble_icon.svg" alt="Dribbble Icon"></a></li>
+                        <li><a href="//instagram.com/techjohnson"><img src="img/instagram_icon.svg" alt="Instagram Icon"></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input type="text" name="name" placeholder="Name"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <input type="email" name="email" placeholder="Email"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <textarea name="message" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button type="submit">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 
-        <section class="footer">
-            <p>Steven Johnson © 2019</p>
-        </section>
 
-    </div>
+
+
+
 
 </body>
-
-    <script>
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        document.getElementById("nav").style.top = "0";
-        } else {
-        document.getElementById("nav").style.top = "-200px";
-        }
-    }
-    </script>
 </html>
