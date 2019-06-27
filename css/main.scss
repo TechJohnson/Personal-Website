@@ -75,8 +75,29 @@ body {
     }
 }
 
+#nav {
+    position: fixed;
+    width: 100%;
+    background: $darkGray;
+    padding: 30px 0;
+    transition: top 0.5s;
+    z-index: 999;
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 30px;
+        &:hover {
+            border-bottom: 2px solid $blue;
+            padding-bottom: 5px;
+        }
+    }
+}
+
 .desktopHero {
     padding: 150px 0 200px 0;
+    img {
+        cursor: pointer;
+    }
 }
 
 // 2 Column with picture on left
@@ -160,6 +181,9 @@ body {
         border-radius: 5px;
         border: 2px solid #1F2022;
         background: #48494A;
+        &:focus {
+            border: 2px solid $blue;
+        }
     }
     textarea {
         width: 100%;
@@ -171,6 +195,9 @@ body {
         border-radius: 5px;
         border: 2px solid #1F2022;
         background: #48494A;
+        &:focus {
+            border: 2px solid $blue;
+        }
     }
     button {
         width: 35%;

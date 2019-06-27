@@ -14,6 +14,23 @@
 </head>
 <body>
     
+    <!--Desktop Scroll Nav-->
+    <nav id="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img src="/img/logo.png" alt="">
+                </div>
+                <div class="col-xs-7 end-xs">
+                    <a href="">Work</a>
+                    <a href="">Practice</a>
+                    <a href="">Story</a>
+                    <a href="">What's Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!--Desktop Header-->
     <header class="desktopHeader">
         <div class="container">
@@ -40,10 +57,10 @@
                         <p class="accent">Freelancer</p>
                         <h1>Internet Hair Stylist</h1>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <p>Self-taught graphic designer and web developer based in State College, Pennsylvania who loves to create attractive user experiences and eye-catching designs.</p>
                     </div>
                     <div class="col-xs-6 center-xs">
-                        <img src="/img/play_button.png" alt="">
+                        <img src="/img/play_button.png" onmouseover="src='/img/white-play.png'" onmouseout="src='/img/play_button.png'" alt="Welcome to TechJohnson - Video">
                     </div>
                 </div>
             </div>
@@ -137,7 +154,7 @@
     <!--Contact Area-->
     <section class="contactArea">
         <div class="container">
-            <div class="row">
+            <div class="row middle-xs">
                 <div class="col-xs-6">
                     <h2>Don't be a stranger</h2>
                     <h3>just say hello.</h3>
@@ -204,4 +221,17 @@
 
 
 </body>
+
+
+    <script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("nav").style.top = "0";
+        } else {
+            document.getElementById("nav").style.top = "-200px";
+        }
+    }
+    </script>
 </html>
