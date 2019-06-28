@@ -77,6 +77,7 @@ body hr {
 #nav {
   position: fixed;
   width: 100%;
+  top: -200px;
   background: #292A2C;
   padding: 30px 0;
   -webkit-transition: top 0.5s;
