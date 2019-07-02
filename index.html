@@ -36,6 +36,12 @@
     </nav>
 
     <!--Desktop Header-->
+    <div class="lightBox">
+        <div class="contentBox">
+            <iframe width="960" height="620" src="https://www.youtube.com/embed/88zU4cQES7k?rel=0;&autoplay=1" frameborder="0" allowfullscreen include></iframe>
+        </div>
+    </div>
+
     <header class="desktopHeader">
         <div class="container">
 
@@ -64,11 +70,10 @@
                         <p>Self-taught graphic designer and web developer based in State College, Pennsylvania who loves to create attractive user experiences and eye-catching designs.</p>
                     </div>
                     <div class="col-xs-12 col-md-6 center-xs">
-                        <img src="/img/play_button.png" onmouseover="src='/img/white-play.png'" onmouseout="src='/img/play_button.png'" alt="Welcome to TechJohnson - Video">
+                        <img src="/img/play_button.png" onmouseover="src='/img/white-play.png'" onmouseout="src='/img/play_button.png'" alt="Welcome to TechJohnson - Video" class="playBtn">
                     </div>
                 </div>
             </div>
-
         </div>
     </header>
 
@@ -228,14 +233,31 @@
 
 
     <script>
-    window.onscroll = function() {scrollFunction()};
+        window.onscroll = function() {scrollFunction()};
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-            document.getElementById("nav").style.top = "0";
-        } else {
-            document.getElementById("nav").style.top = "-200px";
+        function scrollFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                document.getElementById("nav").style.top = "0";
+            } else {
+                document.getElementById("nav").style.top = "-200px";
+            }
         }
-    }
     </script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+
+    <script>
+        $('.playBtn ').click( function() {
+            $(".lightBox").toggleClass("show");
+        } );
+
+        $('.lightBox ').click( function() {
+            $(".lightBox").toggleClass("show");
+        } );
+    </script>
+
 </html>
