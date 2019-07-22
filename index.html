@@ -19,6 +19,39 @@
 
 </head>
 <body>
+
+    <!--Mobile Header-->
+    <div class="mobileNav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="/img/close.svg" alt="" class="closeBtn">
+                </div>
+            </div>
+            <div class="row center-xs">
+                <div class="col-xs-12">
+                    <ul>
+                        <li><a href="">Work</a></li>
+                        <li><a href="">Story</a></li>
+                        <li><a href="">What's Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="mobileNavBar">
+        <div class="container">
+            <div class="row middle-xs">
+                <div class="col-xs-6">
+                    <img src="/img/logo.png" alt=""> 
+                </div>
+                <div class="col-xs-6 end-xs">
+                    <img src="/img/burger.svg" alt="" class="burgerMenu">
+                </div>
+            </div>
+        </div>
+    </nav>
     
     <!--Desktop Scroll Nav-->
     <nav id="nav">
@@ -28,8 +61,7 @@
                     <img src="/img/logo.png" alt="">
                 </div>
                 <div class="col-xs-7 end-xs">
-                    <a href="">Work</a>
-                    <a href="">Practice</a>
+                    <a href="//dribbble.com/techjohnson">Work</a>
                     <a href="">Story</a>
                     <a href="">What's Up</a>
                 </div>
@@ -54,8 +86,7 @@
                         <img src="/img/logo.png" alt="">
                     </div>
                     <div class="col-xs-7 end-xs">
-                        <a href="">Work</a>
-                        <a href="">Practice</a>
+                        <a href="//dribbble.com/techjohnson">Work</a>
                         <a href="">Story</a>
                         <a href="">What's Up</a>
                     </div>
@@ -211,8 +242,7 @@
         <div class="container">
             <div class="row center-xs">
                 <div class="col-xs-12">
-                    <a href="">Work</a>
-                    <a href="">Practice</a>
+                    <a href="//dribbble.com/techjohnson">Work</a>
                     <a href="">Story</a>
                     <a href="">What's Up</a>
                 </div>
@@ -262,5 +292,15 @@
             $(".lightBox").toggleClass("show");
         } );
     </script>
+
+<script>
+    $('.burgerMenu ').click( function() {
+        $(".mobileNav").toggleClass("show2");
+    } );
+
+    $('.closeBtn ').click( function() {
+        $(".mobileNav").toggleClass("show2");
+    } );
+</script>
 
 </html>

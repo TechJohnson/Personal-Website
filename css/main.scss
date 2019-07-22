@@ -54,25 +54,29 @@ body {
     color: $blue;
 }
 
-// Light Box
-.lightBox {
-    background: rgba(0, 0, 0, 0.5);
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    overflow: hidden;
-    position: fixed;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
+// Mobile View
+@media (max-width: 1000px) {
+    .desktopNav {
+          display: none;
+    }
+    #nav {
+        display: none;
+    }
+    .playBtn {
+        display: none;
+    }
 }
 
-.show {
-    display: flex;
-    justify-content: center;
-    align-items: center;}
+// Desktop View
+@media (min-width: 1000px) {
+    .desktopNav {
+        display: show;
+    }
+    .mobileNavBar {
+        display: none;
+    }
+}
+
 
 
 // Header & Navigation
@@ -118,6 +122,74 @@ body {
     padding: 150px 0 200px 0;
     img {
         cursor: pointer;
+    }
+}
+
+// Light Box
+.lightBox {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 9998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show2 {
+    display: flex;
+}
+
+
+.mobileNavBar {
+    padding: 25px 0;
+    position: fixed;
+    background: $darkGray;
+    width: 100%;
+    z-index: 99;
+    .burgerMenu {
+        width: 25px;
+    }
+}
+
+
+.mobileNav {
+    background: $darkGray;
+    height: 100vh;
+    top: 0;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+    .closeBtn {
+        position: fixed;
+        width: 25px;
+        top: 25px;
+        right: 30px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            padding: 15px 0;
+        }
+        a {
+            font-size: 1.25rem;
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
