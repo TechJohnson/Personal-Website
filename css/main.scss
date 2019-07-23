@@ -146,10 +146,6 @@ body {
     align-items: center;
 }
 
-.show2 {
-    display: flex;
-}
-
 
 .mobileNavBar {
     padding: 25px 0;
@@ -172,6 +168,9 @@ body {
     width: 100%;
     z-index: 9999;
     display: none;
+    .show2 {
+        display: flex;
+    }
     .closeBtn {
         position: fixed;
         width: 25px;

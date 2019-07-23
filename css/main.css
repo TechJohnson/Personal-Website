@@ -157,12 +157,6 @@ body hr {
           align-items: center;
 }
 
-.show2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .mobileNavBar {
   padding: 25px 0;
   position: fixed;
@@ -184,6 +178,12 @@ body hr {
   width: 100%;
   z-index: 9999;
   display: none;
+}
+
+.mobileNav .show2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .mobileNav .closeBtn {
