@@ -168,7 +168,7 @@ body {
     width: 100%;
     z-index: 9999;
     display: none;
-    .show2 {
+    &.show2 {
         display: flex;
     }
     .closeBtn {
