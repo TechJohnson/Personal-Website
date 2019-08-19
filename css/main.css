@@ -231,6 +231,12 @@ body hr {
   line-height: 1.8;
 }
 
+.leftPic a {
+  color: #00D3FE;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
 .testimonial {
   padding: 85px 0;
   background: #1F2022;
