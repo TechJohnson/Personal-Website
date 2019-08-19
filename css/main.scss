@@ -54,6 +54,14 @@ body {
     color: $blue;
 }
 
+#logo {
+    padding: 0;
+    margin: 0;
+    &:hover {
+        border: none;
+    }
+}
+
 // Mobile View
 @media (max-width: 1000px) {
     .desktopNav {
@@ -315,7 +323,10 @@ body {
 
 }
 
-// Contact Form
+// My Story
+.myStory {
+    padding: 100px 0;
+}
 
 
 

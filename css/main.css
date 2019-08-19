@@ -53,6 +53,15 @@ body hr {
   color: #00D3FE;
 }
 
+#logo {
+  padding: 0;
+  margin: 0;
+}
+
+#logo:hover {
+  border: none;
+}
+
 @media (max-width: 1000px) {
   .desktopNav {
     display: none;
@@ -349,6 +358,10 @@ body hr {
 .contactArea button:hover {
   background: #00697f;
   border: 2px solid #00697f;
+}
+
+.myStory {
+  padding: 100px 0;
 }
 
 .footer {
